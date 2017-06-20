@@ -1,0 +1,63 @@
+/* Styles go here */
+html,
+body {
+    height: 100%;
+    background-color: #e6ecff;
+    /*font-family: "nyt-karnak-display","nyt-karnak-display-130124",georgia,"times new roman",times,serif;*/
+    font-family: georgia, "times new roman", times, serif;
+    font-size: 15px;
+    line-height: 1.466666666666667;
+    color: #666;
+
+
+}
+.main-container td {border: 1px solid #ccc; border-width: 0 0 1px 0;}
+
+.btn-shorten:hover,
+.btn-shorten:focus,
+.btn-shorten:active,
+.btn-shorten.active {
+  color: #ffffff;
+  background-color: #4CAF50;
+  border: none;
+}
+#collection-heading  
+ {
+    font-size: 36px;
+    font-size: 2.25rem;
+    line-height: 42px;
+    font-weight: 400;
+    font-style: bold;
+    font-family: "nyt-karnak-display","nyt-karnak-display-130124",georgia,"times new roman",times,serif;
+    letter-spacing: 1px; 
+    width: 20%;
+}
+#input-head{
+    width: 18%; 
+    height:18px;
+    
+}
+
+
+@media (min-width: 768px) {
+  .main-container{
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-container{
+    width: 100%;
+  }
+}
+
+.main-container {
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 40px;  
+}
+
+.size-container{
+    width: 100%;
+}
+
