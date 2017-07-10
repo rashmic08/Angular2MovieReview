@@ -3,7 +3,7 @@ import {Component, enableProdMode, OnInit} from 'angular2/core';
 import {HTTP_PROVIDERS} from 'angular2/http';
 
 import {SearchForm} from './search_form';
-import {ArticleApi} from './MovieApi';
+import {ArticleApi} from './MovieAPI';
 import { Observable } from "rxjs/Observable";
 
 @Component({
